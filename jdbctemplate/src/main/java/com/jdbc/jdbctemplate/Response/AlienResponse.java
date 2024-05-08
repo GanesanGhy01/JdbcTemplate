@@ -1,9 +1,6 @@
-package com.jdbc.jdbctemplate.model;
+package com.jdbc.jdbctemplate.Response;
 
-import org.springframework.stereotype.Component;
-
-@Component
-public class Alien {
+public class AlienResponse {
 	
 	private int id;
 	private String name;
@@ -33,3 +30,4 @@ public class Alien {
 	}
 	
 }
+
